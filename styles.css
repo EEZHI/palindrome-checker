@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #113537;
+  font-family: "Poppins", sans-serif;
+}
+
+#hero {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  height: 30vh;
+  padding-top: 40px;
+}
+#hero h1 {
+  color: white;
+}
+
+#hero p {
+  color: #ffead0;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  margin: 0 auto;
+  align-items: center;
+}
+
+#check-container {
+  display: block;
+  background-color: white;
+  height: 150px;
+  width: 350px;
+  border-radius: 20px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+#text-input {
+  border: none;
+  border-bottom: #96616b 2px solid;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 220px;
+  height: 34px;
+}
+
+#check-btn {
+  color: white;
+  background-color: #96616b;
+  border: none;
+  border-radius: 10px;
+  width: 75px;
+  height: 34px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#check-container label {
+  padding: 0 20px;
+  height: 37px;
+  margin-bottom: 0;
+}
+#tips-container {
+  margin-top: 10px;
+  width: 350px;
+  text-align: left;
+}
+
+#tips-container p {
+  color: #ffead0;
+}
+
+#result {
+  color: #96616b;
+  text-align: center;
+  margin: 0 auto;
+}
